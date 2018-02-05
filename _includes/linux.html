@@ -37,24 +37,45 @@ get help.
 
 <p>
 
-  <li><b>R</b>
-    <br>In the workshop, we will use RStudio. RStudio is a nice interface to the
-    programming language R. To use RStudio, you need to install both R and RStudio.
-    <ul>
-      <li>Follow the instructions for your distribution
-	from <a href="https://cloud.r-project.org/bin/linux/">CRAN</a>. For most distributions, you
-	can use your package manager (e.g. for Debian/Ubuntu run <code>sudo
-	apt-get install r-base</code>, and for Fedora run <code>sudo yum install
-	R</code>) but make sure that you have at least R 3.2.2 (as pre-packaged
-	versions might be out of date).
-      <li>To install RStudio, go to
-	the <a href="http://www.rstudio.com/ide/download/desktop">RStudio Download
-	  page</a>
-      <li>Under <i>Installers</i> select the version for your distribution.
-      <li>Once it's downloaded, double click the file to install it (or <code>sudo dpkg
-	  -i rstudio-x.yy.zzz-amd64.deb</code> at the terminal).
-      <li>Once it's installed, open RStudio to make sure it works and you don't get any error messages.
-    </ul>
+<li><b>Python</b>
+<br>
+      We will teach Python using the IPython notebook, a programming environment
+      that runs in a web browser. For this to work you will need a reasonably
+      up-to-date browser. The current versions of the Chrome, Safari and
+      Firefox browsers are all
+      <a href="http://ipython.org/ipython-doc/2/install/install.html#browser-compatibility">supported</a>
+      (some older browsers, including Internet Explorer version 9
+      and below, are not).
+<br><a href="https://www.youtube.com/watch?v=TcSAln46u9U">Video Tutorial</a>
+      <ol>
+        <li>Open <a href="http://continuum.io/downloads">http://continuum.io/downloads</a> with your web browser.</li>
+        <li>Download the Python 3 installer for Linux.<br>
+          (Installation requires using the shell. If you aren't
+           comfortable doing the installation yourself
+           stop here and request help at the workshop.)
+        </li>
+        <li>
+          Open a terminal window.
+        </li>
+        <li>
+          Type <pre>bash Anaconda3-</pre> and then press
+          tab. The name of the file you just downloaded should
+          appear. If it does not, navigate to the folder where you
+          downloaded the file, for example with:
+          <pre>cd Downloads</pre>
+          Then, try again.
+        </li>
+        <li>
+          Press enter. You will follow the text-only prompts. To move through
+          the text, press the space key. Type <code>yes</code> and
+          press enter to approve the license. Press enter to approve the
+          default location for the files. Type <code>yes</code> and
+          press enter to prepend Anaconda to your <code>PATH</code>
+          (this makes the Anaconda distribution the default Python).
+        </li>
+        <li>
+          Close the terminal window.
+      </ol>
 
 <p>
 
@@ -63,8 +84,8 @@ get help.
     For this workshop we're going to use the Firefox SQLite Plugin. It works through
     the web browser Firefox.
     <ul>
-      <li>If you don't already have Firefox installed
-	<a href="https://www.mozilla.org/en-US/firefox/new/">install Firefox</a>
+      <li>You will need the ESR (Extended Support Release) version of Firefox which can be downloaded here:
+<a href=https://www.mozilla.org/en-US/firefox/organizations/all/>Firefox ESR</a>
       <li>Start Firefox
       <li>Go to the <a href="https://addons.mozilla.org/en-US/firefox/addon/sqlite-manager/">plugin homepage</a>.
       <li> Click the "Add Now" button.
